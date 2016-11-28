@@ -12,3 +12,22 @@ var presidents = ["George Washington", "John Adams", "Thomas Jefferson", "James 
 for (var i = 0; i < presidents.length; i++) {
 	console.log("President #" + (i + 1) + " was " + presidents[i])
 }
+
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+
+for (var prop in antSpecies) {
+	console.log(prop);
+
+}
